@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controllers\FloatUpNDown.cs" />
      <Compile Include="Assets\Scripts\Controllers\MoveTo.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MoveToClickPosition.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>H:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
