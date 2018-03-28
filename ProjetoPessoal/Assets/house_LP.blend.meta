@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 9e5896acf5128e6499bb7c752e9776aa
+timeCreated: 1522200017
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: bed_lp
+    100002: bench
+    100004: Circle_002
+    100006: Cube_005
+    100008: Cube_009
+    100010: Cube_010
+    100012: desk_lp
+    100014: desk_lp_001
+    100016: floor
+    100018: fridge_door_lp
+    100020: fridge_lp
+    100022: //RootNode
+    100024: oven
+    100026: pan
+    100028: plate
+    100030: sofa_lp
+    100032: table
+    100034: toilet_lp
+    100036: top-kitchen
+    100038: tv_lp
+    100040: wall_foundation
+    100042: wall_foundation_001
+    100044: washer_lp
+    400000: bed_lp
+    400002: bench
+    400004: Circle_002
+    400006: Cube_005
+    400008: Cube_009
+    400010: Cube_010
+    400012: desk_lp
+    400014: desk_lp_001
+    400016: floor
+    400018: fridge_door_lp
+    400020: fridge_lp
+    400022: //RootNode
+    400024: oven
+    400026: pan
+    400028: plate
+    400030: sofa_lp
+    400032: table
+    400034: toilet_lp
+    400036: top-kitchen
+    400038: tv_lp
+    400040: wall_foundation
+    400042: wall_foundation_001
+    400044: washer_lp
+    2300000: bed_lp
+    2300002: bench
+    2300004: Circle_002
+    2300006: Cube_005
+    2300008: Cube_009
+    2300010: Cube_010
+    2300012: desk_lp
+    2300014: desk_lp_001
+    2300016: floor
+    2300018: fridge_door_lp
+    2300020: fridge_lp
+    2300022: oven
+    2300024: pan
+    2300026: plate
+    2300028: sofa_lp
+    2300030: table
+    2300032: toilet_lp
+    2300034: top-kitchen
+    2300036: tv_lp
+    2300038: wall_foundation
+    2300040: wall_foundation_001
+    2300042: washer_lp
+    3300000: bed_lp
+    3300002: bench
+    3300004: Circle_002
+    3300006: Cube_005
+    3300008: Cube_009
+    3300010: Cube_010
+    3300012: desk_lp
+    3300014: desk_lp_001
+    3300016: floor
+    3300018: fridge_door_lp
+    3300020: fridge_lp
+    3300022: oven
+    3300024: pan
+    3300026: plate
+    3300028: sofa_lp
+    3300030: table
+    3300032: toilet_lp
+    3300034: top-kitchen
+    3300036: tv_lp
+    3300038: wall_foundation
+    3300040: wall_foundation_001
+    3300042: washer_lp
+    4300000: wall_foundation_001
+    4300002: desk_lp_001
+    4300004: fridge_door_lp
+    4300006: Cube_010
+    4300008: Cube_009
+    4300010: washer_lp
+    4300012: toilet_lp
+    4300014: Cube_005
+    4300016: bed_lp
+    4300018: sofa_lp
+    4300020: tv_lp
+    4300022: desk_lp
+    4300024: wall_foundation
+    4300026: floor
+    4300028: table
+    4300030: Circle_002
+    4300032: plate
+    4300034: pan
+    4300036: oven
+    4300038: top-kitchen
+    4300040: fridge_lp
+    4300042: bench
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
