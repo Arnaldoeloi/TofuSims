@@ -3,7 +3,7 @@ guid: 9e5896acf5128e6499bb7c752e9776aa
 timeCreated: 1522200017
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: bed_lp
     100002: bench
@@ -28,6 +28,15 @@ ModelImporter:
     100040: wall_foundation
     100042: wall_foundation_001
     100044: washer_lp
+    100046: bench_001
+    100048: bench_002
+    100050: bench_003
+    100052: Cylinder
+    100054: door_bedroom
+    100056: door_bedroom_001
+    100058: door_bedroom_002
+    100060: windows
+    100062: windows_001
     400000: bed_lp
     400002: bench
     400004: Circle_002
@@ -51,6 +60,15 @@ ModelImporter:
     400040: wall_foundation
     400042: wall_foundation_001
     400044: washer_lp
+    400046: bench_001
+    400048: bench_002
+    400050: bench_003
+    400052: Cylinder
+    400054: door_bedroom
+    400056: door_bedroom_001
+    400058: door_bedroom_002
+    400060: windows
+    400062: windows_001
     2300000: bed_lp
     2300002: bench
     2300004: Circle_002
@@ -73,6 +91,15 @@ ModelImporter:
     2300038: wall_foundation
     2300040: wall_foundation_001
     2300042: washer_lp
+    2300044: bench_001
+    2300046: bench_002
+    2300048: bench_003
+    2300050: Cylinder
+    2300052: door_bedroom
+    2300054: door_bedroom_001
+    2300056: door_bedroom_002
+    2300058: windows
+    2300060: windows_001
     3300000: bed_lp
     3300002: bench
     3300004: Circle_002
@@ -95,6 +122,15 @@ ModelImporter:
     3300038: wall_foundation
     3300040: wall_foundation_001
     3300042: washer_lp
+    3300044: bench_001
+    3300046: bench_002
+    3300048: bench_003
+    3300050: Cylinder
+    3300052: door_bedroom
+    3300054: door_bedroom_001
+    3300056: door_bedroom_002
+    3300058: windows
+    3300060: windows_001
     4300000: wall_foundation_001
     4300002: desk_lp_001
     4300004: fridge_door_lp
@@ -117,12 +153,158 @@ ModelImporter:
     4300038: top-kitchen
     4300040: fridge_lp
     4300042: bench
+    4300044: windows_001
+    4300046: Cylinder
+    4300048: windows
+    4300050: door_bedroom_002
+    4300052: bench_003
+    4300054: bench_002
+    4300056: bench_001
+    4300058: door_bedroom_001
+    4300060: door_bedroom
     7400000: Default Take
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: a7bc3a5577caed44ab4e3cf139a4091b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed-wood
+    second: {fileID: 2100000, guid: 09be5cc871dcf944887c48d24ac876c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: desk
+    second: {fileID: 2100000, guid: 798296cc75bcebb47a19fbaae69f4bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doorHandler
+    second: {fileID: 2100000, guid: d15caf89597eccd43a50517750671f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fogao-forno
+    second: {fileID: 2100000, guid: 625f28b7743715547973911ce70a48fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fogao_base
+    second: {fileID: 2100000, guid: cca8dac311b38bc4cabae140f82034f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fogao_bocas
+    second: {fileID: 2100000, guid: 28e48436f0b6e9d4283cf65fc77983f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fogao_knobs
+    second: {fileID: 2100000, guid: 93f05b9d859d06b48b4c9cfda6bb9b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridge-feet
+    second: {fileID: 2100000, guid: 88b26a0ad6608e34cb4f41c40cc7aade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridge-metal
+    second: {fileID: 2100000, guid: 3d353a649411e1249bfd7743a0178817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridgeColor1
+    second: {fileID: 2100000, guid: 00c2c9c59b76cca48ae5ff750870e228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridgeColor2
+    second: {fileID: 2100000, guid: c914a343a6dcc5a4db2bc04ea8bdc098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 48cfdbeac2ef63348b9467f99eb00de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_001
+    second: {fileID: 2100000, guid: 632d83db8e9bc98458d7be43ab7653c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handwasher
+    second: {fileID: 2100000, guid: 2f40a76a7feff674082d3c0dc14169c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marble
+    second: {fileID: 2100000, guid: 688407db3316f5d47af8163eeb990cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mattress
+    second: {fileID: 2100000, guid: e2be37c0db4f0b841abcf273accab98b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 3275307e89cab5f41a58430172697180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic
+    second: {fileID: 2100000, guid: 7a95b761449385c45b3263039243d6e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastico
+    second: {fileID: 2100000, guid: 15def11066313fc468de4afeb25469c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sofa-lp
+    second: {fileID: 2100000, guid: f6ac8e0724a996446a227bf2cbde6c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tiles
+    second: {fileID: 2100000, guid: 0fab1f73d458cf74d96abd3cd3f05ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toilet
+    second: {fileID: 2100000, guid: 1ce86c75f6ab80d4181c51356a0436e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv
+    second: {fileID: 2100000, guid: d0b57ff92bb398245a173275bbdd18f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv-scrn
+    second: {fileID: 2100000, guid: 3dd8278a1c6b921429ba3482db25229f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 7779d596893b180429000a95d75db881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: a0d840ebded885e4cbcca931691dbddd, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -135,6 +317,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -159,6 +342,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
