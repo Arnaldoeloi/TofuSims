@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FloatUpNDown : MonoBehaviour {
 
+
+
 	public float degreesPerSecond = 15.0f;
 	public float amplitude = 0.5f;
 	public float frequency = 1f;
@@ -18,9 +20,12 @@ public class FloatUpNDown : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
 		tempPos = posOffset; //posição atual
 		tempPos.y+=Mathf.Sin(Time.fixedTime*Mathf.PI*frequency)*amplitude;
-
-		transform.position = tempPos;
+		Vector3 position = transform.position;
+		position [1] = tempPos.y;
+		transform.position = position;
 	}
 }
