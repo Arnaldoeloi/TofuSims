@@ -2,25 +2,34 @@
 using System.Collections;
 
 public class DoorOpenClose : MonoBehaviour {
-
-	private Animator _animator = null;
 	public Collider col;
+	public Renderer rend;
+	public AudioSource doorOpenCloseSound;
 
-
-	// Use this for initialization
-	void Start () {
-		_animator = GetComponent<Animator>();
+	void Start(){
+		rend= GetComponentInChildren<Renderer>();
+		doorOpenCloseSound = GetComponentInChildren<AudioSource> ();
 	}
 
-	void OnTriggerEnter(Collider col)
-	{
-		_animator.SetBool("isOpen", true);
-		Debug.Log ("isOpen");
+
+	void OnTriggerEnter(Collider col){
+		Debug.Log ("Enter");
+		doorOpenCloseSound.Play ();
+		rend.enabled = false;
+
 	}
 
-	void OnTriggerExit(Collider col)
-	{
-		_animator.SetBool("isOpen", false);
-		Debug.Log ("!isOpen");
+	void OnTriggerStay(Collider other){
+		Debug.Log ("Inside");
+	
+	}
+
+	void OnTriggerExit(Collider other){
+		Debug.Log ("Out");
+		rend.enabled = true;
+		if (!doorOpenCloseSound.isPlaying) {
+			doorOpenCloseSound.Play ();
+		}
+
 	}
 }﻿

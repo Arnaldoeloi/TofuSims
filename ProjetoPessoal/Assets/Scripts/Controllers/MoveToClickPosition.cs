@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class MoveToClickPosition : MonoBehaviour {
 	NavMeshAgent agent;
+	public GameObject markerPrefab;
+
 	// Use this for initialization
 	void Start () {
 		agent = GetComponent<NavMeshAgent> ();
@@ -16,8 +18,9 @@ public class MoveToClickPosition : MonoBehaviour {
 			RaycastHit hit;
 
 			if (Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit, 100)) {
-					
-					agent.destination = hit.point;
+				agent.destination = hit.point;
+				Instantiate(markerPrefab, hit.point, markerPrefab.transform.rotation);
+
 			}
 		
 			
