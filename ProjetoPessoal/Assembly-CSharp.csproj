@@ -55,6 +55,7 @@
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\CollidersTests.cs" />
      <Compile Include="Assets\marker.cs" />
+     <Compile Include="Assets\Needs.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -111,6 +112,7 @@
      <Compile Include="Assets\Scripts\Doors\DoorOpenClose.cs" />
      <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\NameAbovePrefab.cs" />
+     <Compile Include="Assets\SimsNeedsUI.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
