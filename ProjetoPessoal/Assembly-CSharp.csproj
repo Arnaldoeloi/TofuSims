@@ -54,6 +54,8 @@
      <Compile Include="Assets\audioPlayerController.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\CollidersTests.cs" />
+     <Compile Include="Assets\FeelingInfluence.cs" />
+     <Compile Include="Assets\InteractiveElement.cs" />
      <Compile Include="Assets\marker.cs" />
      <Compile Include="Assets\Needs.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -101,8 +103,8 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\RTS_Camera\Demo\ActionsController.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\DemoScene.cs" />
-     <Compile Include="Assets\RTS_Camera\Demo\TargetSelector.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
      <Compile Include="Assets\Scripts\Controllers\FloatUpNDown.cs" />
      <Compile Include="Assets\Scripts\Controllers\MoveTo.cs" />
@@ -110,9 +112,11 @@
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\Scripts\Doors\DoorOpenClose.cs" />
-     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\NameAbovePrefab.cs" />
      <Compile Include="Assets\SimsNeedsUI.cs" />
+     <Compile Include="Assets\TelevisionController.cs" />
+     <Compile Include="Assets\TofuAnimation.cs" />
+     <Compile Include="Assets\UIInGameTest.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />

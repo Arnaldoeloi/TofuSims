@@ -29,7 +29,7 @@ public class Needs : MonoBehaviour {
 		if (time >= decayTime) {
 			time = time - decayTime;
 			decayRandom();
-			Debug.Log ("Hunger: "+hunger);
+			//Debug.Log ("Hunger: "+hunger);
 		}
 
 	}

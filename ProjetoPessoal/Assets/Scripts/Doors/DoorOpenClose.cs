@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class DoorOpenClose : MonoBehaviour {
-	public Collider col;
-	public Renderer rend;
-	public AudioSource doorOpenCloseSound;
+	private Collider col;
+	private Renderer rend;
+	private AudioSource doorOpenCloseSound;
 
 	void Start(){
 		rend= GetComponentInChildren<Renderer>();

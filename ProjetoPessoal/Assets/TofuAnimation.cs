@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class MusicPlayer : MonoBehaviour {
+public class TofuAnimation : MonoBehaviour {
 
-	public Animator anim;
+
 
 	// Use this for initialization
 	void Start () {
@@ -13,6 +14,6 @@ public class MusicPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+			
 	}
 }
