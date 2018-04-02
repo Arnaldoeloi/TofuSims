@@ -11,6 +11,13 @@ public class SimsNeedsUI : MonoBehaviour {
 	public Slider boredomBar;
 	public Slider tirenessBar;
 	public Slider socialBar;
+	public Slider bathroomBar;
+	public Slider showerBar;
+
+	public Color backgroundBarColor = new Color (255,255,255,125);
+	public Color barColorWhenLow = Color.red;
+	public Color barColorWhenMedium  = Color.yellow;
+	public Color barColorWhenHigh  = Color.green;
 
 	private Slider[] needsSliders;
 
@@ -22,6 +29,9 @@ public class SimsNeedsUI : MonoBehaviour {
 	void Start () {
 		needs = (Needs) simsCharacter.GetComponent ("Needs");
 		needsSliders = this.GetComponentsInChildren<Slider> ();
+		foreach (Slider slider in needsSliders) {
+			slider.GetComponentsInChildren<Image> ()[0].color = backgroundBarColor;
+		}
 	}
 	
 	// Update is called once per frame
@@ -31,15 +41,16 @@ public class SimsNeedsUI : MonoBehaviour {
 		boredomBar.value = needs.boredom/100f;
 		tirenessBar.value = needs.tireness/100f;
 		socialBar.value = needs.social/100f;
-
+		bathroomBar.value = needs.bathroom / 100.0f;
+		showerBar.value = needs.shower / 100.0f;
 		
 		foreach (Slider slider in needsSliders) {
 			if (slider.value > 0.8) {
-				slider.GetComponentInChildren<Image> ().color = Color.green;
+				slider.GetComponentsInChildren<Image> ()[1].color = barColorWhenHigh;
 			} else if (slider.value <= 0.8 && slider.value > 0.3) {
-				slider.GetComponentInChildren<Image> ().color = Color.yellow;
+				slider.GetComponentsInChildren<Image> ()[1].color = barColorWhenMedium;
 			} else {
-				slider.GetComponentInChildren<Image> ().color = Color.red;
+				slider.GetComponentsInChildren<Image> ()[1].color = barColorWhenLow;
 			}
 		}
 

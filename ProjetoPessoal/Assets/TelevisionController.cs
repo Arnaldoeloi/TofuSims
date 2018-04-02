@@ -19,7 +19,7 @@ public class TelevisionController : InteractiveElement {
 		if (!isTurnedOn) {
 			this.goodForBoredom = goodForBoredomWhenTurnedOff;
 		} else {
-			this.goodForBoredom = goodForBoredom;
+			this.goodForBoredom = auxGoodForBoredom;
 		}
 	}
 

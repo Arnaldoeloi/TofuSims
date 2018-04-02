@@ -8,7 +8,7 @@ public class MoveToClickPosition : MonoBehaviour {
 	NavMeshAgent agent;
 	public GameObject markerPrefab;
 	private Animator anim;
-	private bool isMoving=false;
+
 
 
 	// Use this for initialization
