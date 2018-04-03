@@ -11,6 +11,7 @@ public class ActionsController : MonoBehaviour
     public string interactiveObjectsTag="interactive";
 	public Needs mainCharacterNeeds;
 	public Canvas menuExecutedWhenInteractivePrefab;
+	public Canvas mainCanvas;
 
 
     private void Start()
@@ -32,7 +33,7 @@ public class ActionsController : MonoBehaviour
 				Debug.Log(hit.transform.tag);
 				if (hit.transform.CompareTag(interactiveObjectsTag)){
                     //cam.SetTarget(hit.transform);
-					Instantiate(menuExecutedWhenInteractivePrefab,hit.transform.position, new Quaternion(0,0,0,0));
+					//Instantiate(menuExecutedWhenInteractivePrefab,hit.transform.position, new Quaternion(0,0,0,0));
 					if(hit.transform.GetComponent<Food>() && hit.transform.GetComponent<Food>()!=null){
 						mainCharacterNeeds.tireness += hit.transform.GetComponent<Food> ().goodForTireness;
 						mainCharacterNeeds.bathroom += hit.transform.GetComponent<Food> ().goodForBathroom;

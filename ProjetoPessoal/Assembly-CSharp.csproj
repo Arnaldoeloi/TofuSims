@@ -51,15 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\audioPlayerController.cs" />
-     <Compile Include="Assets\CameraController.cs" />
-     <Compile Include="Assets\CollidersTests.cs" />
-     <Compile Include="Assets\FeelingInfluence.cs" />
      <Compile Include="Assets\Food\Food.cs" />
-     <Compile Include="Assets\FridgeElement.cs" />
-     <Compile Include="Assets\InteractiveElement.cs" />
-     <Compile Include="Assets\marker.cs" />
-     <Compile Include="Assets\Needs.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -108,18 +100,26 @@
      <Compile Include="Assets\RTS_Camera\Demo\ActionsController.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\DemoScene.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
+     <Compile Include="Assets\Scripts\audioPlayerController.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CollidersTests.cs" />
      <Compile Include="Assets\Scripts\Controllers\FloatUpNDown.cs" />
      <Compile Include="Assets\Scripts\Controllers\MoveTo.cs" />
      <Compile Include="Assets\Scripts\Controllers\MoveToClickPosition.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\Scripts\Doors\DoorOpenClose.cs" />
+     <Compile Include="Assets\Scripts\FeelingInfluence.cs" />
+     <Compile Include="Assets\Scripts\FridgeElement.cs" />
+     <Compile Include="Assets\Scripts\InteractiveElement.cs" />
+     <Compile Include="Assets\Scripts\marker.cs" />
      <Compile Include="Assets\Scripts\NameAbovePrefab.cs" />
-     <Compile Include="Assets\SimsNeedsUI.cs" />
-     <Compile Include="Assets\TelevisionController.cs" />
-     <Compile Include="Assets\TofuAnimation.cs" />
-     <Compile Include="Assets\UIActionChoice.cs" />
-     <Compile Include="Assets\UIInGameTest.cs" />
+     <Compile Include="Assets\Scripts\Needs.cs" />
+     <Compile Include="Assets\Scripts\SimsNeedsUI.cs" />
+     <Compile Include="Assets\Scripts\TelevisionController.cs" />
+     <Compile Include="Assets\Scripts\TofuAnimation.cs" />
+     <Compile Include="Assets\Scripts\UIActionChoice.cs" />
+     <Compile Include="Assets\Scripts\UIInGameTest.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
